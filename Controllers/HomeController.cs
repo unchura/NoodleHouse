@@ -22,8 +22,9 @@ namespace NoodleHouse.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Our contact page.";
-
+            ViewData["Title"] = "Contact Us";
+            ViewData["Message"] = "Our contact details";
+            
             return View();
         }
 
